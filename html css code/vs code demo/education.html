@@ -3,6 +3,11 @@
 
 <head>
     <title>web page 4</title>
+    <script type="text/javascript">
+        function fun() {
+               alert (" Hello World \n Welcome to the education webpage\n This is an alert dialog box ");
+            }
+    </script>
 </head>
 <link rel="stylesheet" href="edu.css">
 <div class="nav">
@@ -10,21 +15,29 @@
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
     <a href="https://mail.google.com/mail/u/0/#inbox">email</a>
+    <button id="colorSwitchButton"
+        style="background-color: rgb(164, 144, 144); color: rgb(31, 31, 31); font-size: larger; font-weight: 600;">switch
+        color</button>
+
 </div>
 
 <body>
     <h1 style="background-color:rgb(154, 177, 120);color:rgba(1, 1, 1, 0.479) ; text-align: center;">EDUCATION</h1>
+    <input type="checkbox" id="checkedBox.id" onclick="check()" placeholder="Show Pic"> Show Picture
     <hr>
-    <div class="ph">
+    <div class="ph" id="pic2">
         <img src="e-book.jpg">
         <img src="e-book2.webp">
-        <img src="e-book3.webp">
-    </div>
+         <img src="e-book3.webp">
+        
+
+    </div>     
+      
     <hr>
 
     <h2>Arts and culture ideas</h2>
     <div class="one">
-        <p style="background-color: aquamarine;">
+        <p style="background-color: rgb(197, 241, 226);">
             Speeches that revolve around arts and culture are ones your audience is
             likely to be familiar with, such as popular entertainment, the arts and pop culture references.
             From graffiti to reality television, the arts and culture theme offers broad subjects to select from when
@@ -42,7 +55,7 @@
         <hr>
 
         <h2 class="business">Business matters</h2>
-        <p style="background-color: aquamarine;">
+        <p style="background-color: rgb(197, 241, 226);">
             Business topics can be relatable to those who work in a relevant sector.
             This theme is broad enough that topics can affect professionals across industries.
             Business-related speeches cover elements like economic processes, business practices, leadership roles and
@@ -58,7 +71,7 @@
         <hr>
 
         <h2 class="edu">Education subjects</h2>
-        <p style="background-color: aquamarine;">
+        <p style="background-color: rgb(197, 241, 226);">
             Education offers the chance to question changes that have a significant impact on students and discuss
             current
             affairs on the state of education. Current events in education are often public happenings. Subjects such as
@@ -79,12 +92,19 @@
             <footer>
                 <p>&copy; khushi | <span id="currentYear"></span></p>
             </footer>
-            <script>
-                document.getElementById("currentYear").innerText = new Date().getFullYear();
-            </script>
         </h4>
     </div>
+    <form>
+        <input type = "button" value = "Click me" onclick = "fun();" />
+     </form>
+    <script src="edu.js"></script>
 
+
+    <script>
+
+
+    </script>
+      
 </body>
 
 </html>
