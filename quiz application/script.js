@@ -1,13 +1,13 @@
 const quizData = [
     {
-      question: 'What is the capital of France?',
-      options: ['Paris', 'London', 'Berlin', 'Madrid'],
-      answer: 'Paris',
+      question: ' Which component is used to compile, debug and execute the java programs?',
+      options: ['JRE', 'JIT', 'JDK', 'JVM'],
+      answer: ' JDK',
     },
     {
-      question: 'What is the largest planet in our solar system?',
-      options: ['Mars', 'Saturn', 'Jupiter', 'Neptune'],
-      answer: 'Jupiter',
+      question: 'Which one of the following is not a Java feature?',
+      options: ['Object-oriented', 'Use of pointers', ' Portable', 'Dynamic and Extensible'],
+      answer: 'Use of pointers',
     },
     {
       question: 'Which country won the FIFA World Cup in 2018?',
