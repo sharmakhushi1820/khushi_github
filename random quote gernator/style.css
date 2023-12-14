@@ -8,11 +8,14 @@
 }
 
 body {
-   background: #bbc6fa;
+   background-image: url("background.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 .quote-box {
-   background: #fff;
+   background: #9b68e7e8;
    width: 700px;
    height: 500px;
    position: absolute;
@@ -64,7 +67,7 @@ body {
    content: '';
    width: 20px;
    height: 2px;
-   background: rgb(23, 124, 229);
+   background: rgb(11, 55, 102);
    position: absolute;
    top: 50%;
    left: -30px;
@@ -78,8 +81,8 @@ body {
 }
 
 .quote-box button {
-   background: rgb(23, 124, 229);
-   color: #fff;
+   background: white;
+   color: black;
    border-radius: 25px;
    border: 1px solid rgb(23, 124, 229);
    width: 150px;
@@ -89,6 +92,12 @@ body {
    justify-content: center;
    margin: 5px;
    cursor: pointer;
+
+}
+
+.quote-box button:hover {
+   background-color: lightblue;
+
 }
 
 .quote-box button img {
@@ -98,6 +107,10 @@ body {
 }
 
 .quote-box button:nth-child(2) {
-   background: transparent;
+   background-color: white;
    color: #333;
+}
+
+.quote-box button:nth-child(2):hover {
+   background-color: lightblue;
 }
