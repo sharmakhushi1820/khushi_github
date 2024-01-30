@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #222;
-}
+
 
 .card {
     width: 90%;
@@ -107,9 +105,10 @@ body {
     margin-top: 10px;
     display: none;
 }
-.main{
-    background-image:url("images/weather.png") ;
+body{
+    background-image:url("images/bg_img.jpg") ;
    background-size: cover ;
    background-repeat: no-repeat;
    background-attachment: fixed;
+   width: 100%;
 }
